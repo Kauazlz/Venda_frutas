@@ -9,17 +9,16 @@ using System.Threading.Channels;
 
 //Criar a tabela para trabalhar com a persistencia dos dados
 var conn = new SqliteConnection("Data Source = frutas.db");
-conn.Open();
+conn.Open(); // abrir a conexão com o banco 
 
-//criar tabela
+//criar tabela para trabalhar usando os comandos do SQL
 var criarTabela = conn.CreateCommand();
 criarTabela.CommandText = @"CREATE TABLE IF NOT EXISTS frutas (
-
                             idFruta INTEGER PRIMARY KEY AUTOINCREMENT,
                             nomeFruta TEXT NOT NULL UNIQUE)";
 criarTabela.ExecuteNonQuery();
 
-Console.WriteLine($"Banco frutas criado em: {Path.GetFullPath("frutas.db")}");
+Console.WriteLine($"Banco frutas criado em: {Path.GetFullPath("frutas.db")}"); // verifica o caminho 
 
 // -------- MENU -------------
 List<string> listaFrutas = new List<string>();
@@ -80,6 +79,7 @@ void AdicionarFrutas()
 
 void ListarFrutas()
 {
+    // Criação de lista
     listaFrutas = new List<string>();
     //Montagem do comando para executar a query a partir da conexao com o bd
     var selecionarFrutas = conn.CreateCommand();
@@ -91,14 +91,14 @@ void ListarFrutas()
     while (leitor.Read()) {
         listaFrutas.Add(leitor.GetString(0)); //get string converte para o tipo string ,para inserir no bd e o 0 representa a coluna que será inserido
 
-        foreach (var f in listaFrutas)
+        foreach (var f in listaFrutas) // Irá executar mostrando a lista 
         {
             Console.WriteLine(f);
         }
     }
 
 }
-string Perguntar(string mensagem)
+string Perguntar(string mensagem) 
 {
     Console.Write(mensagem);
     return (Console.ReadLine()!.Trim());

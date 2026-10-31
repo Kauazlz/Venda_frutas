@@ -296,19 +296,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\40974115860\\.nuget\\packages\\": {}
+    "C:\\Users\\Kauã Berato\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\40974115860\\Desktop\\csharp\\listAndArray\\crudSqlite\\cruqSqlite\\cruqSqlite\\cruqSqlite.csproj",
+      "projectUniqueName": "C:\\Users\\Kauã Berato\\Desktop\\Senai\\Venda_frutas\\listAndArray\\crudSqlite\\cruqSqlite\\cruqSqlite\\cruqSqlite.csproj",
       "projectName": "cruqSqlite",
-      "projectPath": "C:\\Users\\40974115860\\Desktop\\csharp\\listAndArray\\crudSqlite\\cruqSqlite\\cruqSqlite\\cruqSqlite.csproj",
-      "packagesPath": "C:\\Users\\40974115860\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\40974115860\\Desktop\\csharp\\listAndArray\\crudSqlite\\cruqSqlite\\cruqSqlite\\obj\\",
+      "projectPath": "C:\\Users\\Kauã Berato\\Desktop\\Senai\\Venda_frutas\\listAndArray\\crudSqlite\\cruqSqlite\\cruqSqlite\\cruqSqlite.csproj",
+      "packagesPath": "C:\\Users\\Kauã Berato\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kauã Berato\\Desktop\\Senai\\Venda_frutas\\listAndArray\\crudSqlite\\cruqSqlite\\cruqSqlite\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\40974115860\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Kauã Berato\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -335,7 +335,7 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.300"
+      "SdkAnalysisLevel": "10.0.400"
     },
     "frameworks": {
       "net10.0": {
@@ -363,7 +363,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.402/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",
